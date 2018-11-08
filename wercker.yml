@@ -27,7 +27,7 @@ chj-push:
         cmd: sh target/bin/start
 
 #Deploy our container from the Oracle Container Registry to the Oracle Container Engine (Kubernetes)
-deploy-to-cluster:
+deploy-to-cluster-chj:
     box:
         id: alpine
         cmd: /bin/sh
